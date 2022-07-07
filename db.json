@@ -14,11 +14,6 @@
       "id": 3,
       "rating": 10,
       "text": "This is feedback item 3 coming from the backend"
-    },
-    {
-      "text": "this a test of posting to json.db",
-      "rating": 4,
-      "id": 4
     }
   ]
 }
