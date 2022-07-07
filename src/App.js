@@ -18,6 +18,7 @@ import FeedbackData from "./data/FeedbackData";
 import AboutIconLink from "./components/AboutIconLink";
 import AboutPage from "./pages/AboutPage";
 import Post from "./components/Post";
+import Blog from "./components/Blog";
 
 function App() {
     const [feedback, setFeedback] = useState(FeedbackData)
@@ -47,6 +48,7 @@ function App() {
                     } />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/post/:slug/:name" element={<Post />} />
+                    <Route path="/blog/*" element={<Blog />} />
                 </Routes>
 
                 <Card>
