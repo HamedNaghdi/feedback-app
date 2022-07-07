@@ -40,10 +40,10 @@ function App() {
                     </Routes>
 
                     <Card>
-                        <NavLink to="/" activeClassName="active">
+                        <NavLink to="/" activeclassname="active">
                             Home
                         </NavLink>
-                        <NavLink to="/about" activeClassName="active">
+                        <NavLink to="/about" activeclassname="active">
                             About
                         </NavLink>
                     </Card>
